@@ -56,7 +56,7 @@ export default function InputProduct() {
           onChange={change}
         />
         <div>
-          <Checkbox onChange={onChange} value={input.ischeck}>con hang</Checkbox>
+          <Checkbox onChange={onChange} checked={input.ischeck}>con hang</Checkbox>
         </div>
         <Button type="primary" onClick={submit}>Them</Button>
       </div>
